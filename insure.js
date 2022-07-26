@@ -6,7 +6,7 @@ const navLink = document.querySelectorAll(".nav-link");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-  overlay.classList.add("active");
+  overlay.classList.toggle("active");
 });
 
 overlay.addEventListener("click", () => {
