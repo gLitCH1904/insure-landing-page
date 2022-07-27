@@ -135,7 +135,6 @@ nav {
   background-color: var(--Very-Dark-Violet);
   display: block;
   border-radius: 2px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
