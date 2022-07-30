@@ -171,7 +171,7 @@ nav {
 /* STYLING FIRST SECTION OF THE PAGE WITH OVERFLOWING PICTURE */
 .first-section {
   display: flex;
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
   height: 800px;
   padding: initial;
