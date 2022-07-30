@@ -45,7 +45,7 @@ body {
   height: 100%;
   z-index: 5;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: 200ms ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 a {
@@ -136,6 +136,10 @@ nav {
   display: block;
   border-radius: 2px;
   transition: all 0.3s ease-in-out;
+}
+
+.bar:nth-child(2) {
+  width: 23px;
 }
 
 /* STYLING FUNNY LOOKING CURVES */
@@ -444,7 +448,9 @@ hr {
     color: white;
   }
   .hamburger {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -474,7 +480,8 @@ hr {
     align-items: center;
     justify-content: center;
     transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
     width: 200px;
     max-width: 80%;
   }
@@ -503,6 +510,7 @@ hr {
 
   .nav-bar.active {
     transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
 
   /* styling funny looking curves */
