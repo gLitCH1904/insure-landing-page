@@ -73,7 +73,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: white;
-  padding: 15px;
+  padding: 20px 45px;
   z-index: 5;
 }
 
@@ -455,6 +455,7 @@ hr {
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
+    width: initial;
   }
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
